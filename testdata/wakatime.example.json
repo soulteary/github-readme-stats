@@ -1,0 +1,127 @@
+{
+  "data": {
+    "categories": [
+      {
+        "digital": "22:40",
+        "hours": 22,
+        "minutes": 40,
+        "name": "Coding",
+        "percent": 100,
+        "text": "22 hrs 40 mins",
+        "total_seconds": 81643.570077
+      }
+    ],
+    "daily_average": 16095,
+    "daily_average_including_other_language": 16329,
+    "days_including_holidays": 7,
+    "days_minus_holidays": 5,
+    "editors": [
+      {
+        "digital": "22:40",
+        "hours": 22,
+        "minutes": 40,
+        "name": "VS Code",
+        "percent": 100,
+        "text": "22 hrs 40 mins",
+        "total_seconds": 81643.570077
+      }
+    ],
+    "holidays": 2,
+    "human_readable_daily_average": "4 hrs 28 mins",
+    "human_readable_daily_average_including_other_language": "4 hrs 32 mins",
+    "human_readable_total": "22 hrs 21 mins",
+    "human_readable_total_including_other_language": "22 hrs 40 mins",
+    "id": "random hash",
+    "is_already_updating": false,
+    "is_coding_activity_visible": true,
+    "is_including_today": false,
+    "is_other_usage_visible": true,
+    "is_stuck": false,
+    "is_up_to_date": true,
+    "languages": [
+      {
+        "digital": "8:15",
+        "hours": 8,
+        "minutes": 15,
+        "name": "Python",
+        "percent": 36.5,
+        "text": "8 hrs 15 mins",
+        "total_seconds": 29700.0
+      },
+      {
+        "digital": "5:30",
+        "hours": 5,
+        "minutes": 30,
+        "name": "JavaScript",
+        "percent": 24.4,
+        "text": "5 hrs 30 mins",
+        "total_seconds": 19800.0
+      },
+      {
+        "digital": "4:20",
+        "hours": 4,
+        "minutes": 20,
+        "name": "Go",
+        "percent": 19.2,
+        "text": "4 hrs 20 mins",
+        "total_seconds": 15600.0
+      },
+      {
+        "digital": "2:45",
+        "hours": 2,
+        "minutes": 45,
+        "name": "TypeScript",
+        "percent": 12.2,
+        "text": "2 hrs 45 mins",
+        "total_seconds": 9900.0
+      },
+      {
+        "digital": "1:30",
+        "hours": 1,
+        "minutes": 30,
+        "name": "Rust",
+        "percent": 6.7,
+        "text": "1 hr 30 mins",
+        "total_seconds": 5400.0
+      },
+      {
+        "digital": "0:19",
+        "hours": 0,
+        "minutes": 19,
+        "name": "Other",
+        "percent": 1.43,
+        "text": "19 mins",
+        "total_seconds": 1170.434361
+      },
+      {
+        "digital": "0:10",
+        "hours": 0,
+        "minutes": 10,
+        "name": "YAML",
+        "percent": 0.75,
+        "text": "10 mins",
+        "total_seconds": 600.0
+      }
+    ],
+    "operating_systems": [
+      {
+        "digital": "22:40",
+        "hours": 22,
+        "minutes": 40,
+        "name": "Mac",
+        "percent": 100,
+        "text": "22 hrs 40 mins",
+        "total_seconds": 81643.570077
+      }
+    ],
+    "percent_calculated": 100,
+    "range": "last_7_days",
+    "status": "ok",
+    "timeout": 15,
+    "total_seconds": 80473.135716,
+    "total_seconds_including_other_language": 81643.570077,
+    "user_id": "random hash",
+    "username": "anuraghazra",
+    "writes_only": false
+  }
+}

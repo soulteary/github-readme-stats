@@ -1,0 +1,4 @@
+coverage.*
+.env
+bin/examples
+server
