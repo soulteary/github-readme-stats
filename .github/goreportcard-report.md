@@ -11,10 +11,10 @@
 
 | Check | Score |
 | ----- | ----- |
-| gofmt | 100% |
 | go_vet | 100% |
-| ineffassign | 100% |
+| gofmt | 100% |
 | gocyclo | 67% |
+| ineffassign | 100% |
 | license | 100% |
 | misspell | 90% |
 
@@ -22,39 +22,36 @@
 
 ### gocyclo
 
-- `internal/cards/stats.go`
-  - Line 59: cyclomatic complexity 40 for function RenderStatsCard
-- `internal/common/fmt.go`
-  - Line 184: cyclomatic complexity 39 for function WrapTextByPixelWidth
+- `internal/cards/top_languages.go`
+  - Line 62: cyclomatic complexity 22 for function RenderTopLanguages
+- `internal/api/cli.go`
+  - Line 77: cyclomatic complexity 22 for function GenerateStatsCard
+  - Line 312: cyclomatic complexity 18 for function GenerateTopLangsCard
 - `cmd/server/main.go`
   - Line 64: cyclomatic complexity 35 for function runCLI
 - `internal/common/color.go`
   - Line 89: cyclomatic complexity 27 for function GetCardColors
 - `cmd/examples/main.go`
   - Line 20: cyclomatic complexity 24 for function main
-- `internal/api/cli.go`
-  - Line 77: cyclomatic complexity 22 for function GenerateStatsCard
-  - Line 312: cyclomatic complexity 18 for function GenerateTopLangsCard
-- `internal/fetchers/stats.go`
-  - Line 275: cyclomatic complexity 18 for function FetchStats
-- `internal/fetchers/repo.go`
-  - Line 80: cyclomatic complexity 23 for function FetchRepo
-- `internal/api/stats.go`
-  - Line 16: cyclomatic complexity 23 for function StatsHandler
-- `internal/cards/top_languages.go`
-  - Line 62: cyclomatic complexity 22 for function RenderTopLanguages
 - `internal/fetchers/top_languages.go`
   - Line 71: cyclomatic complexity 21 for function FetchTopLanguages
 - `internal/cards/wakatime.go`
   - Line 46: cyclomatic complexity 21 for function RenderWakaTimeCard
+- `internal/fetchers/stats.go`
+  - Line 275: cyclomatic complexity 18 for function FetchStats
 - `internal/api/top_langs.go`
   - Line 16: cyclomatic complexity 18 for function TopLangsHandler
+- `internal/cards/stats.go`
+  - Line 59: cyclomatic complexity 40 for function RenderStatsCard
+- `internal/common/fmt.go`
+  - Line 184: cyclomatic complexity 39 for function WrapTextByPixelWidth
+- `internal/fetchers/repo.go`
+  - Line 80: cyclomatic complexity 23 for function FetchRepo
+- `internal/api/stats.go`
+  - Line 16: cyclomatic complexity 23 for function StatsHandler
 
 ### misspell
 
-- `README.de.md`
-  - Line 175: "Konfiguration" is a misspelling of "Configuration"
-  - Line 293: "Konfiguration" is a misspelling of "Configuration"
 - `README.it.md`
   - Line 125: "Progresso" is a misspelling of "Progression"
   - Line 182: "configurare" is a misspelling of "configure"
@@ -62,12 +59,15 @@
   - Line 285: "generatore" is a misspelling of "generate"
   - Line 293: "comando" is a misspelling of "commando"
   - Line 503: "concesso" is a misspelling of "concession"
+- `README.de.md`
+  - Line 175: "Konfiguration" is a misspelling of "Configuration"
+  - Line 293: "Konfiguration" is a misspelling of "Configuration"
+- `internal/themes/themes.go`
+  - Line 181: "darcula" is a misspelling of "dracula"
 - `internal/translations/translations.go`
   - Line 178: "Contribuito" is a misspelling of "Contribution"
   - Line 241: "activit" is a misspelling of "activist"
   - Line 253: "activit" is a misspelling of "activist"
-- `internal/themes/themes.go`
-  - Line 181: "darcula" is a misspelling of "dracula"
 
 ---
 
